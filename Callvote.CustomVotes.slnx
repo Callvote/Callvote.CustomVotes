@@ -1,0 +1,9 @@
+<Solution>
+    <Project Path="Callvote.DiscordLab/Callvote.DiscordLab.csproj" />
+    <Configurations>
+        <BuildType Name="EXILED" />
+        <BuildType Name="Debug" />
+        <BuildType Name="Release" />
+        <Platform Name="x64" />
+    </Configurations>
+</Solution>
