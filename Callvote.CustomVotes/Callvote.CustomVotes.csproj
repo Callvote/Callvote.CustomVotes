@@ -8,8 +8,12 @@
 		<Platforms>x64</Platforms>
 	</PropertyGroup>
 
-	<ItemGroup>
+    <ItemGroup Condition="'$(Configuration)' != 'Release'">
+        <Reference Include="Callvote" HintPath="$(SL_REFERENCES)\Callvote-EXILED.dll" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(Configuration)' == 'Release'">
         <Reference Include="Callvote" HintPath="$(SL_REFERENCES)\Callvote-LabAPI.dll" />
-	</ItemGroup>
+    </ItemGroup>
 
 </Project>
