@@ -1,5 +1,5 @@
 <Solution>
-    <Project Path="Callvote.DiscordLab/Callvote.DiscordLab.csproj" />
+    <Project Path="Callvote.CustomVotes/Callvote.CustomVotes.csproj" />
     <Configurations>
         <BuildType Name="EXILED" />
         <BuildType Name="Debug" />
