@@ -39,7 +39,7 @@
         <Reference Include="Mirror" HintPath="$(SL_REFERENCES)\Mirror.dll" />
 
         <PackageReference Include="Northwood.LabAPI" Version="1.1.7" />
-        <PackageReference Include="Callvote.API" Version="1.0.0" />
+        <PackageReference Include="Callvote.API" Version="1.0.2" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(Configuration)' == 'EXILED'">
